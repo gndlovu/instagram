@@ -4,21 +4,27 @@ A simple Laravel web application to pull and display top 10 images from Instagra
 
 ## Getting Started
 Begin by cloning the repository:
+
 git clone https://github.com/gndlovu/instagram.git
+
 cd path/to/instagram/dir
 
 Use composer to get dependencies:
+
 `composer install`
 
 ## Configurations
 
 cd path/to/instagram/dir
+
 cp .env.example .env
 
 Open .env and provide values on below variables:
 
 INSTAGRAM_CALBACK_URL=http://localhost:8000/instagram/callback
+
 INSTAGRAM_CLIENT_ID=**** Your Instagram Client ID
+
 INSTAGRAM_CLIENT_SECRET=**** Your Instagram Client Secret
 
 ## Development server
